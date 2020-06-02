@@ -58,7 +58,7 @@ public class CalcTest
         
         Thread.sleep(5000);
         
-	    String text = prop.getProperty("exp_add_text");
+    String text = prop.getProperty("exp_add_text");
 
         String bodyText = driver.findElement(By.xpath("/html/body")).getText();
         System.out.println(bodyText);
