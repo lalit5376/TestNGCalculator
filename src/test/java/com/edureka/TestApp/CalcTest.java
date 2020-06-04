@@ -69,7 +69,7 @@ public class CalcTest
 	    driver.findElement(By.name("r1")).click();
 	    
 	    WebDriverWait wait = new WebDriverWait(driver, 10);
-	    WebElement myElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("id")));
+	    WebElement myElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("s1")));
 	   
 	    //myElement.click();
 	    //driver.findElement(By.id("s1")).click();
